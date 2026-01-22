@@ -6,6 +6,7 @@
 #include "skCrypter.h"
 #include "skSigs.h"
 #include "skDebug.h"
+#include "skSandbox.h"
 
 static HANDLE GetProcessByName(const std::wstring& name)
 {
@@ -110,3 +111,4 @@ int main()
 
     return 0;
 }
+
